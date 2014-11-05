@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1027E17A191FEB3700592A3A /* PlayerDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027E179191FEB3700592A3A /* PlayerDetailsVC.m */; };
+		1027E17F192003CA00592A3A /* buttons1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1027E17E192003CA00592A3A /* buttons1.png */; };
+		1027E18419201A1A00592A3A /* playagain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1027E18319201A1A00592A3A /* playagain.png */; };
+		1027E18619201A2300592A3A /* buttonssheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1027E18519201A2300592A3A /* buttonssheet.png */; };
+		1027E18819201AA700592A3A /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1027E18719201AA700592A3A /* gameover.png */; };
+		1027E1951920295400592A3A /* rx.png in Resources */ = {isa = PBXBuildFile; fileRef = 1027E1941920295400592A3A /* rx.png */; };
+		10B0CC10190CD554009A7638 /* mainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B0CC0F190CD554009A7638 /* mainVC.m */; };
+		10C4C28719162DD700A1E713 /* BUTTONS_SHEET_1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C28619162DD700A1E713 /* BUTTONS_SHEET_1 (1).png */; };
+		10C4C28919162DE200A1E713 /* BUTTONS_SHEET_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C28819162DE200A1E713 /* BUTTONS_SHEET_1.png */; };
+		10C4C28B191631DA00A1E713 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C28A191631DA00A1E713 /* buttons.png */; };
+		10C4C2911918382900A1E713 /* gamescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C2901918382900A1E713 /* gamescreen.png */; };
+		10C4C299191854E900A1E713 /* gamescreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C298191854E900A1E713 /* gamescreen1.png */; };
+		10C4C29B191856D100A1E713 /* gamescreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C29A191856D100A1E713 /* gamescreen2.png */; };
+		10C4C29D19185AAE00A1E713 /* Pokeball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C29C19185AAD00A1E713 /* Pokeball1.png */; };
+		10C4C29F19185ACE00A1E713 /* Pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C29E19185ACE00A1E713 /* Pokeball.png */; };
+		10C4C2A31918692E00A1E713 /* paused.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C2A21918692E00A1E713 /* paused.png */; };
+		10C4C2A51918693C00A1E713 /* unpaused.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C2A41918693C00A1E713 /* unpaused.png */; };
+		10C4C2A719194D7B00A1E713 /* pika sad (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C2A619194D7B00A1E713 /* pika sad (1).png */; };
+		10C4C2AB19194FEE00A1E713 /* pika sad NEW.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C4C2AA19194FEE00A1E713 /* pika sad NEW.png */; };
+		10D35C17191F18A4007BB424 /* PlayersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D35C16191F18A4007BB424 /* PlayersVC.m */; };
+		10D35C1A191F1964007BB424 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D35C19191F1964007BB424 /* Player.m */; };
+		10DEA426190CDFF80070ABD8 /* helpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DEA425190CDFF80070ABD8 /* helpVC.m */; };
 		10F1862018FD8B3D00594A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1861F18FD8B3D00594A65 /* Foundation.framework */; };
 		10F1862218FD8B3D00594A65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1862118FD8B3D00594A65 /* CoreGraphics.framework */; };
 		10F1862418FD8B3D00594A65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1862318FD8B3D00594A65 /* UIKit.framework */; };
@@ -17,13 +39,16 @@
 		10F1863518FD8B3E00594A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F1863318FD8B3E00594A65 /* Main.storyboard */; };
 		10F1863818FD8B3E00594A65 /* eggsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1863718FD8B3E00594A65 /* eggsViewController.m */; };
 		10F1863B18FD8B3E00594A65 /* eggsMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1863A18FD8B3E00594A65 /* eggsMyScene.m */; };
-		10F1863D18FD8B3E00594A65 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F1863C18FD8B3E00594A65 /* Spaceship.png */; };
 		10F1863F18FD8B3E00594A65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F1863E18FD8B3E00594A65 /* Images.xcassets */; };
 		10F1864618FD8B3E00594A65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1864518FD8B3E00594A65 /* XCTest.framework */; };
 		10F1864718FD8B3E00594A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1861F18FD8B3D00594A65 /* Foundation.framework */; };
 		10F1864818FD8B3E00594A65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1862318FD8B3D00594A65 /* UIKit.framework */; };
 		10F1865018FD8B3E00594A65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F1864E18FD8B3E00594A65 /* InfoPlist.strings */; };
 		10F1865218FD8B3E00594A65 /* eggsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1865118FD8B3E00594A65 /* eggsTests.m */; };
+		F151176119088C2400792283 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = F151176019088C2400792283 /* background-music-aac.caf */; };
+		F151176319088C3600792283 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = F151176219088C3600792283 /* pew-pew-lei.caf */; };
+		F15117661908948B00792283 /* gameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F15117651908948B00792283 /* gameOverScene.m */; };
+		F15117681908AD2100792283 /* platform.png in Resources */ = {isa = PBXBuildFile; fileRef = F15117671908AD2100792283 /* platform.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +62,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1027E178191FEB3700592A3A /* PlayerDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsVC.h; sourceTree = "<group>"; };
+		1027E179191FEB3700592A3A /* PlayerDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsVC.m; sourceTree = "<group>"; };
+		1027E17E192003CA00592A3A /* buttons1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons1.png; sourceTree = "<group>"; };
+		1027E18319201A1A00592A3A /* playagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playagain.png; sourceTree = "<group>"; };
+		1027E18519201A2300592A3A /* buttonssheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonssheet.png; sourceTree = "<group>"; };
+		1027E18719201AA700592A3A /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		1027E1941920295400592A3A /* rx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rx.png; sourceTree = "<group>"; };
+		10B0CC0D190CD1C8009A7638 /* Pikachu Sound Effect.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pikachu Sound Effect.aif"; sourceTree = "<group>"; };
+		10B0CC0E190CD554009A7638 /* mainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainVC.h; sourceTree = "<group>"; };
+		10B0CC0F190CD554009A7638 /* mainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainVC.m; sourceTree = "<group>"; };
+		10C4C28619162DD700A1E713 /* BUTTONS_SHEET_1 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BUTTONS_SHEET_1 (1).png"; sourceTree = "<group>"; };
+		10C4C28819162DE200A1E713 /* BUTTONS_SHEET_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTONS_SHEET_1.png; sourceTree = "<group>"; };
+		10C4C28A191631DA00A1E713 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
+		10C4C2901918382900A1E713 /* gamescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamescreen.png; sourceTree = "<group>"; };
+		10C4C298191854E900A1E713 /* gamescreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamescreen1.png; sourceTree = "<group>"; };
+		10C4C29A191856D100A1E713 /* gamescreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamescreen2.png; sourceTree = "<group>"; };
+		10C4C29C19185AAD00A1E713 /* Pokeball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball1.png; sourceTree = "<group>"; };
+		10C4C29E19185ACE00A1E713 /* Pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball.png; sourceTree = "<group>"; };
+		10C4C2A21918692E00A1E713 /* paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paused.png; sourceTree = "<group>"; };
+		10C4C2A41918693C00A1E713 /* unpaused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unpaused.png; sourceTree = "<group>"; };
+		10C4C2A619194D7B00A1E713 /* pika sad (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pika sad (1).png"; sourceTree = "<group>"; };
+		10C4C2AA19194FEE00A1E713 /* pika sad NEW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pika sad NEW.png"; sourceTree = "<group>"; };
+		10D35C15191F18A4007BB424 /* PlayersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersVC.h; sourceTree = "<group>"; };
+		10D35C16191F18A4007BB424 /* PlayersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersVC.m; sourceTree = "<group>"; };
+		10D35C18191F1964007BB424 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		10D35C19191F1964007BB424 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		10DEA424190CDFF80070ABD8 /* helpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpVC.h; sourceTree = "<group>"; };
+		10DEA425190CDFF80070ABD8 /* helpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpVC.m; sourceTree = "<group>"; };
 		10F1861C18FD8B3D00594A65 /* eggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F1861F18FD8B3D00594A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10F1862118FD8B3D00594A65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +106,17 @@
 		10F1863718FD8B3E00594A65 /* eggsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eggsViewController.m; sourceTree = "<group>"; };
 		10F1863918FD8B3E00594A65 /* eggsMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eggsMyScene.h; sourceTree = "<group>"; };
 		10F1863A18FD8B3E00594A65 /* eggsMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eggsMyScene.m; sourceTree = "<group>"; };
-		10F1863C18FD8B3E00594A65 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		10F1863E18FD8B3E00594A65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10F1864418FD8B3E00594A65 /* eggsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eggsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F1864518FD8B3E00594A65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		10F1864D18FD8B3E00594A65 /* eggsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eggsTests-Info.plist"; sourceTree = "<group>"; };
 		10F1864F18FD8B3E00594A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10F1865118FD8B3E00594A65 /* eggsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eggsTests.m; sourceTree = "<group>"; };
+		F151176019088C2400792283 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		F151176219088C3600792283 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		F15117641908948B00792283 /* gameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameOverScene.h; sourceTree = "<group>"; };
+		F15117651908948B00792283 /* gameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameOverScene.m; sourceTree = "<group>"; };
+		F15117671908AD2100792283 /* platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platform.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,14 +178,23 @@
 		10F1862718FD8B3E00594A65 /* eggs */ = {
 			isa = PBXGroup;
 			children = (
-				10F1863018FD8B3E00594A65 /* eggsAppDelegate.h */,
-				10F1863118FD8B3E00594A65 /* eggsAppDelegate.m */,
 				10F1863318FD8B3E00594A65 /* Main.storyboard */,
+				1027E178191FEB3700592A3A /* PlayerDetailsVC.h */,
+				1027E179191FEB3700592A3A /* PlayerDetailsVC.m */,
+				10D35C15191F18A4007BB424 /* PlayersVC.h */,
+				10D35C16191F18A4007BB424 /* PlayersVC.m */,
+				10D35C18191F1964007BB424 /* Player.h */,
+				10D35C19191F1964007BB424 /* Player.m */,
+				10DEA424190CDFF80070ABD8 /* helpVC.h */,
+				10DEA425190CDFF80070ABD8 /* helpVC.m */,
+				10B0CC0E190CD554009A7638 /* mainVC.h */,
+				10B0CC0F190CD554009A7638 /* mainVC.m */,
 				10F1863618FD8B3E00594A65 /* eggsViewController.h */,
 				10F1863718FD8B3E00594A65 /* eggsViewController.m */,
 				10F1863918FD8B3E00594A65 /* eggsMyScene.h */,
 				10F1863A18FD8B3E00594A65 /* eggsMyScene.m */,
-				10F1863C18FD8B3E00594A65 /* Spaceship.png */,
+				F15117641908948B00792283 /* gameOverScene.h */,
+				F15117651908948B00792283 /* gameOverScene.m */,
 				10F1863E18FD8B3E00594A65 /* Images.xcassets */,
 				10F1862818FD8B3E00594A65 /* Supporting Files */,
 			);
@@ -138,7 +204,30 @@
 		10F1862818FD8B3E00594A65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10C4C28619162DD700A1E713 /* BUTTONS_SHEET_1 (1).png */,
+				10C4C2901918382900A1E713 /* gamescreen.png */,
+				10C4C2A619194D7B00A1E713 /* pika sad (1).png */,
+				1027E1941920295400592A3A /* rx.png */,
+				1027E18719201AA700592A3A /* gameover.png */,
+				1027E18519201A2300592A3A /* buttonssheet.png */,
+				1027E17E192003CA00592A3A /* buttons1.png */,
+				1027E18319201A1A00592A3A /* playagain.png */,
+				10C4C2AA19194FEE00A1E713 /* pika sad NEW.png */,
+				10C4C298191854E900A1E713 /* gamescreen1.png */,
+				10C4C2A21918692E00A1E713 /* paused.png */,
+				10C4C2A41918693C00A1E713 /* unpaused.png */,
+				10C4C29C19185AAD00A1E713 /* Pokeball1.png */,
+				10C4C29E19185ACE00A1E713 /* Pokeball.png */,
+				F151176219088C3600792283 /* pew-pew-lei.caf */,
+				10C4C29A191856D100A1E713 /* gamescreen2.png */,
+				F151176019088C2400792283 /* background-music-aac.caf */,
+				10C4C28A191631DA00A1E713 /* buttons.png */,
+				10C4C28819162DE200A1E713 /* BUTTONS_SHEET_1.png */,
+				10F1863018FD8B3E00594A65 /* eggsAppDelegate.h */,
+				10F1863118FD8B3E00594A65 /* eggsAppDelegate.m */,
+				10B0CC0D190CD1C8009A7638 /* Pikachu Sound Effect.aif */,
 				10F1862918FD8B3E00594A65 /* eggs-Info.plist */,
+				F15117671908AD2100792283 /* platform.png */,
 				10F1862A18FD8B3E00594A65 /* InfoPlist.strings */,
 				10F1862D18FD8B3E00594A65 /* main.m */,
 				10F1862F18FD8B3E00594A65 /* eggs-Prefix.pch */,
@@ -241,10 +330,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1027E17F192003CA00592A3A /* buttons1.png in Resources */,
+				10C4C28919162DE200A1E713 /* BUTTONS_SHEET_1.png in Resources */,
+				1027E18419201A1A00592A3A /* playagain.png in Resources */,
+				F151176119088C2400792283 /* background-music-aac.caf in Resources */,
+				10C4C28B191631DA00A1E713 /* buttons.png in Resources */,
+				10C4C2911918382900A1E713 /* gamescreen.png in Resources */,
 				10F1862C18FD8B3E00594A65 /* InfoPlist.strings in Resources */,
+				F15117681908AD2100792283 /* platform.png in Resources */,
+				10C4C28719162DD700A1E713 /* BUTTONS_SHEET_1 (1).png in Resources */,
+				10C4C29F19185ACE00A1E713 /* Pokeball.png in Resources */,
+				1027E18619201A2300592A3A /* buttonssheet.png in Resources */,
+				10C4C2A51918693C00A1E713 /* unpaused.png in Resources */,
+				10C4C299191854E900A1E713 /* gamescreen1.png in Resources */,
 				10F1863F18FD8B3E00594A65 /* Images.xcassets in Resources */,
-				10F1863D18FD8B3E00594A65 /* Spaceship.png in Resources */,
 				10F1863518FD8B3E00594A65 /* Main.storyboard in Resources */,
+				1027E1951920295400592A3A /* rx.png in Resources */,
+				10C4C2A719194D7B00A1E713 /* pika sad (1).png in Resources */,
+				10C4C2AB19194FEE00A1E713 /* pika sad NEW.png in Resources */,
+				10C4C29B191856D100A1E713 /* gamescreen2.png in Resources */,
+				10C4C2A31918692E00A1E713 /* paused.png in Resources */,
+				10C4C29D19185AAE00A1E713 /* Pokeball1.png in Resources */,
+				F151176319088C3600792283 /* pew-pew-lei.caf in Resources */,
+				1027E18819201AA700592A3A /* gameover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +374,13 @@
 				10F1863818FD8B3E00594A65 /* eggsViewController.m in Sources */,
 				10F1863218FD8B3E00594A65 /* eggsAppDelegate.m in Sources */,
 				10F1863B18FD8B3E00594A65 /* eggsMyScene.m in Sources */,
+				10DEA426190CDFF80070ABD8 /* helpVC.m in Sources */,
+				F15117661908948B00792283 /* gameOverScene.m in Sources */,
 				10F1862E18FD8B3E00594A65 /* main.m in Sources */,
+				1027E17A191FEB3700592A3A /* PlayerDetailsVC.m in Sources */,
+				10B0CC10190CD554009A7638 /* mainVC.m in Sources */,
+				10D35C1A191F1964007BB424 /* Player.m in Sources */,
+				10D35C17191F18A4007BB424 /* PlayersVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eggs/eggs-Prefix.pch";
 				INFOPLIST_FILE = "eggs/eggs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -408,6 +523,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eggs/eggs-Prefix.pch";
 				INFOPLIST_FILE = "eggs/eggs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -430,6 +546,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "eggsTests/eggsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -448,6 +565,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eggs/eggs-Prefix.pch";
 				INFOPLIST_FILE = "eggsTests/eggsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -473,6 +591,7 @@
 				10F1865718FD8B3E00594A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F1865818FD8B3E00594A65 /* Build configuration list for PBXNativeTarget "eggsTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +600,7 @@
 				10F1865A18FD8B3E00594A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

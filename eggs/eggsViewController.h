@@ -10,5 +10,14 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface eggsViewController : UIViewController
+{
+    SKView * gameView;
+}
+
+@property (weak, nonatomic) IBOutlet UIButton *pauseButton;
+@property (weak, nonatomic) IBOutlet UIButton *restartButton;
+@property (weak, nonatomic) IBOutlet UIButton *menuButton;
 
 @end
+
+
